@@ -1,0 +1,20 @@
+PROFILE PHOTO INSTRUCTIONS
+=========================
+
+To complete your website, add your professional photo here:
+
+REQUIRED:
+- Filename: profile.jpg
+- Size: 800x800 pixels (square)
+- Format: JPG or PNG
+- Quality: High resolution
+
+TEMPORARY SOLUTION:
+Until you add your photo, the website will show a placeholder.
+
+To add your photo:
+1. Save your professional photo in this folder
+2. Rename it to "profile.jpg"
+3. Refresh your website
+
+The website is otherwise complete and ready to use!
