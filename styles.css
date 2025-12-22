@@ -1935,98 +1935,141 @@ img {
     }
 
     .hero-name {
-        font-size: 3rem;
-        margin-bottom: 1.2rem;
+        font-size: 2.8rem;
+        margin-bottom: 1.5rem;
     }
 
     .hero-tagline {
-        font-size: 1.3rem;
-        margin-bottom: 1.8rem;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
     }
 
     .hero-buttons {
         flex-direction: column;
-        gap: 1.2rem;
+        gap: 1.4rem;
     }
 
     .hero-buttons .btn {
         width: 100%;
-        padding: 1.2rem 2.5rem;
+        padding: 1.2rem 2rem;
     }
 
     .profile-photo {
-        width: 300px;
-        height: 300px;
+        width: 260px;
+        height: 260px;
     }
 
     .section-title {
-        font-size: 2.5rem;
-        margin-bottom: 3.8rem;
+        font-size: 2.3rem;
+        margin-bottom: 4rem;
+        padding-bottom: 1.8rem;
     }
 
     .section {
-        padding: calc(var(--section-padding) * 0.65) 0;
+        padding: calc(var(--section-padding) * 0.7) 0;
     }
 
     .leadership-grid,
     .clubs-grid {
         grid-template-columns: 1fr;
-        gap: 2.5rem;
-    }
-
-    .experience-grid {
-        gap: 1.2rem;
-    }
-
-    .experience-card {
-        padding: 1.6rem 1.8rem;
-    }
-
-    .featured-awards {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    .additional-awards {
-        grid-template-columns: 1fr;
-        gap: 1.8rem 2rem;
-    }
-
-    .timeline {
-        padding-left: 2.8rem;
-    }
-
-    .timeline-marker {
-        left: -3.4rem;
-    }
-
-    .timeline-content {
-        padding: 2.5rem 2.8rem;
-    }
-
-    .contact-form {
-        padding: 3rem 3rem;
-    }
-
-    .form-group {
-        margin-bottom: 2rem;
-    }
-
-    .container {
-        padding: 0 1.8rem;
-    }
-
-    .footer {
-        padding: 4rem 0 2.5rem;
+        gap: 2.2rem;
     }
 
     .leadership-card,
     .club-card {
-        padding: 3rem 3rem;
+        padding: 2.5rem 2.2rem;
+    }
+
+    .experience-grid {
+        gap: 1.6rem;
+        max-width: 100%;
     }
 
     .experience-card {
-        padding: 1.5rem 1.6rem;
+        padding: 1.5rem 1.8rem;
+        border-radius: 10px;
+    }
+
+    .experience-header {
+        gap: 0.9rem;
+        margin-bottom: 0.7rem;
+    }
+
+    .experience-header i {
+        font-size: 1.3rem;
+    }
+
+    .experience-header h3 {
+        font-size: 1.1rem;
+    }
+
+    .featured-awards {
+        grid-template-columns: 1fr;
+        gap: 1.8rem;
+    }
+
+    .featured-award-card {
+        padding: 2.5rem 1.8rem;
+        min-height: auto;
+    }
+
+    .additional-awards {
+        grid-template-columns: 1fr;
+        gap: 1.6rem 2rem;
+    }
+
+    .award-item {
+        padding: 1.8rem 1.6rem;
+    }
+
+    .timeline {
+        padding-left: 2.5rem;
+    }
+
+    .timeline-marker {
+        left: -3.2rem;
+    }
+
+    .timeline-content {
+        padding: 2.2rem 2.2rem;
+        border-radius: 16px;
+    }
+
+    .timeline-content h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .timeline-content li {
+        margin-bottom: 1rem;
+        font-size: 0.98rem;
+    }
+
+    .contact-form {
+        padding: 2.8rem 2.2rem;
+    }
+
+    .form-group {
+        margin-bottom: 1.8rem;
+    }
+
+    .form-group label {
+        margin-bottom: 0.6rem;
+        font-size: 0.95rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 1.2rem 1.4rem;
+        font-size: 1rem;
+    }
+
+    .container {
+        padding: 0 1.6rem;
+    }
+
+    .footer {
+        padding: 3.5rem 0 2rem;
     }
 }
 
@@ -2044,60 +2087,102 @@ img {
     }
 
     .hero-name {
-        font-size: 2.4rem;
-        margin-bottom: 1rem;
+        font-size: 2.2rem;
+        margin-bottom: 1.2rem;
     }
 
     .hero-tagline {
-        font-size: 1.15rem;
-        margin-bottom: 1.5rem;
+        font-size: 1.1rem;
+        margin-bottom: 1.8rem;
     }
 
     .hero-description {
-        font-size: 1.05rem;
-        margin-bottom: 2.5rem;
+        font-size: 1rem;
+        margin-bottom: 2.2rem;
+        line-height: 1.8;
     }
 
     .hero-buttons {
-        gap: 1rem;
+        gap: 1.2rem;
     }
 
     .profile-photo {
-        width: 240px;
-        height: 240px;
+        width: 220px;
+        height: 220px;
     }
 
     .section {
-        padding: calc(var(--section-padding) * 0.55) 0;
+        padding: calc(var(--section-padding) * 0.6) 0;
     }
 
     .section-title {
-        font-size: 2.2rem;
-        margin-bottom: 3.2rem;
-        padding-bottom: 1.5rem;
+        font-size: 2rem;
+        margin-bottom: 3.5rem;
+        padding-bottom: 1.4rem;
     }
 
     .btn {
-        padding: 1.1rem 2.2rem;
-        font-size: 0.9rem;
+        padding: 1rem 2rem;
+        font-size: 0.85rem;
     }
 
     .container {
-        padding: 0 1.5rem;
+        padding: 0 1.4rem;
     }
 
     .leadership-card,
-    .club-card,
-    .experience-card {
-        padding: 2.5rem 2rem;
+    .club-card {
+        padding: 2rem 1.8rem;
+        border-radius: 16px;
     }
 
-    .timeline-content {
-        padding: 2.2rem 2rem;
+    .leadership-card h3,
+    .club-card h3 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .leadership-icon,
+    .club-icon {
+        font-size: 2.4rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .experience-grid {
+        gap: 1.4rem;
+    }
+
+    .experience-card {
+        padding: 1.4rem 1.6rem;
+        border-radius: 10px;
+    }
+
+    .experience-header {
+        gap: 0.8rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .experience-header i {
+        font-size: 1.2rem;
+    }
+
+    .experience-header h3 {
+        font-size: 1.05rem;
+        font-weight: 700;
+    }
+
+    .experience-date {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .experience-card p {
+        font-size: 0.95rem;
+        line-height: 1.6;
     }
 
     .featured-award-card {
-        padding: 2.8rem 2rem;
+        padding: 2.2rem 1.6rem;
         min-height: auto;
     }
 
